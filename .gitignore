@@ -1,31 +1,26 @@
-# ========== Unity 생성 파일 무시 ⛔
-[Ll]ibrary/            # 캐시, 임시 파일
-[Tt]emp/               # 빌드 중 임시 파일
-[Oo]bj/                # 중간 빌드 결과물
-[Bb]uild/              # 빌드 출력 디렉터리
-[Bb]uilds/             
-[Ll]ogs/               # 로그 파일
+### 유니티
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/mono_crash.*.json
 
-# ========== 사용자 설정 파일 ✏️
+
+### Visual Studio
+.vs
+# .vsconfig : vs의 확장 및 워크로드 설정 파일. vs로 협업시 넣음
+.vsconfig
+*.vscode
 *.csproj
-*.unityproj
 *.sln
 *.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
 
-# ========== OS별 불필요 파일 🖥️
-.DS_Store
-Thumbs.db
 
-# ========== 패키지 매니저 관련 📦
-[Pp]ackages/manifest.json
-[Pp]ackages/packages-lock.json
+### 플랫폼별
+**/.DS_Store
 
-# ========== 기타
-*.apk
-*.unitypackage
-# 無視(むし)：무시하다
+### 레코딩폴더
+**/Recordings
